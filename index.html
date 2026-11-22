@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sorry Rishi ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="background-hearts" id="hearts"></div>
+
+    <!-- PAGE 1 -->
+
+    <section class="page active" id="page1">
+
+        <h1>HEY ANGRY BIRD! 😤</h1>
+
+        <p class="subtitle">
+            Itna gussa? At least meri baat toh sun lo! 🥺
+        </p>
+
+        <div class="card">
+
+            <h2>Someone wants to say something...</h2>
+
+            <p>
+                Please listen to me once..🥺
+            </p>
+
+            <button onclick="nextPage(2)">
+                Okay, Impress Me 🙄
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 2 -->
+
+    <section class="page" id="page2">
+
+        <div class="emoji">🧸</div>
+
+        <h1>Wait a Second! 🥺</h1>
+
+        <div class="card">
+
+            <p>
+                I know you're angry with me.
+
+                But before you decide to stay angry forever,
+                please give me a little chance to explain.
+            </p>
+
+            <button onclick="nextPage(3)">
+                Read My Message 💌
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 3: CUSTOM MESSAGE -->
+
+    <section class="page" id="page3">
+
+        <div class="emoji">💝</div>
+
+        <h1>A Little Something From Me</h1>
+
+        <div class="letter">
+
+            <h2>Hey Rishi! ❤️</h2>
+
+            <p id="customTypedMessage"></p>
+
+        </div>
+
+        <button onclick="nextPage(4)">
+            Continue Reading 🥹
+        </button>
+
+    </section>
+
+
+    <!-- PAGE 4: APOLOGY LETTER -->
+
+    <section class="page" id="page4">
+
+        <div class="emoji">💌</div>
+
+        <h1>A Letter For You</h1>
+
+        <div class="letter">
+
+            <h2>Dear Angry Bird, ❤️</h2>
+
+            <p id="typedMessage"></p>
+
+            <p class="signature">
+                Your friend ❤️
+            </p>
+
+        </div>
+
+        <button onclick="nextPage(5)">
+            One Last Thing 🥹
+        </button>
+
+    </section>
+
+
+    <!-- PAGE 5: FORGIVENESS QUESTION -->
+
+    <section class="page" id="page5">
+
+        <div class="emoji">🥺❤️</div>
+
+        <h1>One Important Question!</h1>
+
+        <div class="card">
+
+            <h2>Will you forgive me, Angry Bird?</h2>
+
+            <p>
+                Please think carefully!
+            </p>
+
+            <div class="buttons">
+
+                <button class="yes" onclick="nextPage(6)">
+                    YES ❤️
+                </button>
+
+                <button class="no" id="noBtn">
+                    NO 😤
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 6: HAPPY ENDING -->
+
+    <section class="page" id="page6">
+
+        <div class="emoji">🥹💗</div>
+
+        <h1>YAYYYYY!</h1>
+
+        <div class="card">
+
+            <h2>Thank You, Rishi! ❤️</h2>
+
+            <p>
+                Finally! My Angry Bird is back to being my Rishi! 😂
+
+                <br><br>
+
+                Thank you for giving our friendship another chance.
+
+                <br><br>
+
+                Stay happy and keep smiling! 🧸
+            </p>
+
+            <div class="final-hearts">
+                ❤️ 💗 ❤️ 💗 ❤️
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
